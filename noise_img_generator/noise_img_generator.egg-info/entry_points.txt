@@ -1,0 +1,4 @@
+
+            [console_scripts]
+            noise_img_generator=noise_img_generator.cli
+        
