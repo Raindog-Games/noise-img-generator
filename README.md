@@ -1,8 +1,13 @@
 # noise_image_generator
 CLI tool to generate noise png file to be used in game design.
 
+## Install
 ```shell
-usage: cli.py [-h] [--gentype GENTYPE] [--size SIZE] [--filename FILENAME]
+pip3 install noise_img_generator
+```
+
+```shell
+usage: noise_img_generator [-h] [--gentype GENTYPE] [--size SIZE] [--filename FILENAME]
               [--seed SEED] [--cluster CLUSTER] [--imgs IMGS] [--norms NORMS]
               [--dims DIMS] [--octaves OCTAVES] [--tile TILE [TILE ...]]
 
