@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="noise_img_generator",
-    version="1.0.5",
+    version="1.0.6",
     author="Benjamin Slater",
     author_email="benjamin.ed.slater@gmail.com",
     description="CLI to generate noise images for use in game design",
