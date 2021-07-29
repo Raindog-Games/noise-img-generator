@@ -1,10 +1,9 @@
 import argparse
 import random
-from utils import write_noise
-from generators import random_noise, perlin_noise
+from noise_img_generator.utils import write_noise
+from noise_img_generator.generators import random_noise, perlin_noise
 
-
-if __name__ == "__main__":
+def cli():
     parser = argparse.ArgumentParser(
             description='Generate noise png files.',
             formatter_class=argparse.ArgumentDefaultsHelpFormatter)
@@ -42,3 +41,6 @@ if __name__ == "__main__":
 
     # Write noise to file
     write_noise(noise, args.size, args.filename)
+
+if __name__ == '__main__':
+    cli()

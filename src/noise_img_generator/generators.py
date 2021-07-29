@@ -1,7 +1,7 @@
 import numpy as np
 import random
-from perlin import PerlinNoiseFactory
-from utils import normalize
+from noise_img_generator.perlin import PerlinNoiseFactory
+from noise_img_generator.utils import normalize
 
 
 def random_noise(size, cluster, imgs, norms):
