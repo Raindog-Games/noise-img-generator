@@ -1,4 +1,4 @@
-[![PyPI - Python Version]](https://img.shields.io/pypi/pyversions/noise-img-generator)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/noise-img-generator)
 [![PyPI version](https://badge.fury.io/py/noise-img-generator.svg)](https://badge.fury.io/py/noise-img-generator)
 
 # noise_image_generator
