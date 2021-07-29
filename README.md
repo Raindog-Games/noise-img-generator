@@ -1,3 +1,6 @@
+[![PyPI - Python Version]](https://img.shields.io/pypi/pyversions/noise-img-generator)
+[![PyPI version](https://badge.fury.io/py/noise-img-generator.svg)](https://badge.fury.io/py/noise-img-generator)
+
 # noise_image_generator
 CLI tool to generate noise png file to be used in game design.
 
