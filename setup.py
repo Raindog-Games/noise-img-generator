@@ -5,14 +5,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="noise_img_generator",
-    version="1.0.6",
+    name="noise-img-generator",
+    version="1.0.7",
     author="Benjamin Slater",
     author_email="benjamin.ed.slater@gmail.com",
     description="CLI to generate noise images for use in game design",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/slaterb1/noise_img_generator",
+    url="https://github.com/slaterb1/noise-img-generator",
     project_urls={
         "Bug Tracker": "https://github.com/slaterb1/noise_img_generator/issues",
         "Source": "https://github.com/slaterb1/noise_img_generator"
